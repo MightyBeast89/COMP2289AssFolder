@@ -1,9 +1,13 @@
 {
   "name": "myexpressportfolio",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",
@@ -16,5 +20,22 @@
     "jquery": "^3.6.1",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "Express App Portfolio Assignment 1",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MightyBeast89/COMP2289AssFolder.git"
+  },
+  "keywords": [
+    "Venzon",
+    "Ariola"
+  ],
+  "author": "Venzon Ariola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MightyBeast89/COMP2289AssFolder/issues"
+  },
+  "homepage": "https://github.com/MightyBeast89/COMP2289AssFolder#readme"
 }
